@@ -1,0 +1,15 @@
+.textos {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  height: 30em;
+}

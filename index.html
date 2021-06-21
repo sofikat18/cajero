@@ -17,28 +17,29 @@
           src="https://tinyurl.com/4vcb45tx"
           alt="Dibujo de cajero automático (ilustrativo)"
         />
-        <form action="" class="textos">
-          <label for="retiro"
-            >Indique la cantidad a retirar en múltiplos de $50, $100, $200 o
-            $500:</label
-          >
-          <input
-            type="number"
-            id="retiro"
-            name="retiro"
-            min="50"
-            max="4000"
-            step="50"
-            value="50"
-          />
-          <!-- <label for="retirar"></label>
+
+        <label for="retiro" class="textos"
+          >Indique la cantidad a retirar en múltiplos de $50, $100, $200 o
+          $500:</label
+        >
+        <input
+          type="number"
+          id="retiro"
+          name="retiro"
+          min="50"
+          max="4000"
+          step="50"
+          value="50"
+        />
+        <!-- <label for="retirar"></label>
           <input type="button" id="retirar" value="Retirar" /> -->
-          <button id="retirar">Retirar</button>
-        </form>
+        <button id="retirar">Retirar</button>
         <p class="textos" style="color: red">
           <b> *Recuerde que el monto máximo de retiro es de $4,000.00.* </b>
         </p>
       </div>
+
+      <div class="billetes"></div>
     </main>
     <script src="./assets/main.js"></script>
   </body>
